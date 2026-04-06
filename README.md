@@ -446,7 +446,7 @@ This project uses **Google Gemini** (`gemini-2.5-flash`) via Vanna AI 2.0's
 - Simple setup requiring only a single API key
 
 **Free tier limits:**
-- 1500 requests per day for gemini-2.0-flash
+- 1500 requests per day for gemini-2.5-flash
 - Rate limit: 15 requests per minute
 
 > If you hit rate limits during testing, wait 60 seconds between questions
