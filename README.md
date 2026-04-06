@@ -340,7 +340,7 @@ curl http://localhost:8000/health
   "status": "ok",
   "database": "connected",
   "agent_memory_items": 21,
-  "llm": "gemini-2.0-flash",
+  "llm": "gemini-2.5-flash",
   "version": "1.0.0"
 }
 ```
@@ -374,7 +374,7 @@ The system follows a simple pipeline from question to result:
 │                                                 │
 │  ┌─────────────────┐  ┌──────────────────────┐  │
 │  │ GeminiLlmService│  │   DemoAgentMemory    │  │
-│  │ gemini-2.0-flash│  │  (21 seeded Q&A      │  │
+│  │ gemini-2.5-flash│  │  (21 seeded Q&A      │  │
 │  │                 │  │   pairs for context) │  │
 │  └────────┬────────┘  └──────────────────────┘  │
 │           │                                     │
@@ -436,7 +436,7 @@ and error handling for invalid SQL, database failures, and empty results.
 
 ## LLM Provider
 
-This project uses **Google Gemini** (`gemini-2.0-flash`) via Vanna AI 2.0's
+This project uses **Google Gemini** (`gemini-2.5-flash`) via Vanna AI 2.0's
 `GeminiLlmService` integration.
 
 **Why Gemini was chosen:**
