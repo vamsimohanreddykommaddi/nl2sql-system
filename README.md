@@ -1,4 +1,4 @@
-# NL2SQL Clinic System
+# NL2SQL System
 
 An AI-powered **Natural Language to SQL (NL2SQL)** chatbot built with **Vanna AI 2.0** and **FastAPI**.
 Users can ask questions in plain English and get results from a clinic database without writing any SQL.
