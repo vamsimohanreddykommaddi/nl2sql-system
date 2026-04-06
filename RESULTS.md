@@ -668,8 +668,3 @@ NL2SQL systems without schema injection.
    Patient names are in first_name and last_name columns, not name.
    Registration date column is registered_date."*
 
-4. **Implement SQL retry logic** — When SQL fails with a column error,
-   automatically retry with the error message fed back to the agent
-
-5. **Add schema validation layer** — Before executing SQL, check that all
-   referenced column names exist in the actual schema
