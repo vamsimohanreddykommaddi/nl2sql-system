@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ─────────────────────────────────────────────────────────────
-# VANNA 2.0 IMPORTS  (these are the correct 2.0 import paths)
+# VANNA 2.0 IMPORTS 
 # ─────────────────────────────────────────────────────────────
 from vanna import Agent, AgentConfig  # noqa: E402
 from vanna.core.registry import ToolRegistry  # noqa: E402
@@ -112,7 +112,6 @@ agent = Agent(
 
 
 # ─────────────────────────────────────────────────────────────
-# QUICK SANITY CHECK
 # Run this file directly to verify the agent initializes correctly
 # ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
