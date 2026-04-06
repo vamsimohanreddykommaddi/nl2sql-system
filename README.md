@@ -39,7 +39,7 @@ and invoices — with realistic dummy data covering 200 patients, 15 doctors, 50
 | Vanna AI | 2.0.x | NL2SQL Agent framework |
 | FastAPI | Latest | REST API framework |
 | SQLite | Built-in | Database (no installation needed) |
-| Google Gemini | gemini-2.0-flash | LLM for SQL generation |
+| Google Gemini | gemini-2.5-flash | LLM for SQL generation |
 | Plotly | Latest | Chart generation |
 | python-dotenv | Latest | Environment variable management |
 
@@ -75,7 +75,7 @@ nl2sql-system/
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nl2sql-system.git
+git clone https://github.com/vamsimohanreddykommaddi/nl2sql-system.git
 cd nl2sql-system
 ```
 
