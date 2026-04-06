@@ -23,7 +23,7 @@ DEFAULT_USER = User(
     group_memberships=["users","admin"]
 )
 
-# ToolContext now requires user, conversation_id, request_id, agent_memory
+# ToolContext  requires user, conversation_id, request_id, agent_memory
 TOOL_CONTEXT = ToolContext(
     user=DEFAULT_USER,
     conversation_id=str(uuid.uuid4()),
