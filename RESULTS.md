@@ -8,7 +8,7 @@
 | Passed (Correct SQL + Result) | 10 / 20 |
 | Failed (Wrong SQL or Error) | 8 / 20 |
 | Partial (SQL ran but result incorrect) | 2 / 20 |
-| LLM Used | Google Gemini (gemini-2.0-flash) |
+| LLM Used | Google Gemini (gemini-2.5-flash) |
 | Database | clinic.db (SQLite) |
 | Test Date | 06-04-2026 |
 
