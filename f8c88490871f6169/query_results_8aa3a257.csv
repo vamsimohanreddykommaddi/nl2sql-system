@@ -1,2 +1,0 @@
-CAST(SUM(CASE WHEN status = 'No-Show' THEN 1 ELSE 0 END) AS REAL) * 100 / COUNT(*)
-7.0
